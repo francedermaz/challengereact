@@ -1,0 +1,62 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 6em;
+    background-color: transparent;
+}
+
+.user{
+    color: #d38cff;
+    height: 18px;
+}
+
+.user:hover{
+    cursor: pointer;
+    transform: scale(1.25);
+    color: whitesmoke;
+}
+
+.menu{
+    display:grid;
+    grid-template-columns: 150px 150px;
+    margin-right: 2.5em;
+    align-items: center;
+}
+
+a:link, a:visited, a:active {
+    text-decoration:none;
+}
+
+.divlogin{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img{
+    user-select: none; 
+    width: 120%;
+    font-style: italic;
+}
+
+.img:hover{
+    cursor: pointer;
+    transform: scale(1.05);
+}
+
+.link{
+    width: 10%;
+    margin-left: 6vh;
+}
+
+.title{
+    font-family:calibri;
+    font-size: 1.25em;
+    -webkit-text-stroke: 0.5px black;
+    color: whitesmoke;
+}
+.title:hover{
+    transform: scale(1.05);
+    color: #d38cff;
+}
